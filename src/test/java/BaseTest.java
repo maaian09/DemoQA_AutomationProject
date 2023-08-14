@@ -33,4 +33,20 @@ public class BaseTest {
         Assert.assertEquals(actualMessage, expectedMessage, "Error: The username is not present.");
         driver.close();
     }
+    //1.Creez un branch nou din main
+    //2.Ma mut pe el(checkout)
+    //3.Lucrez la task-ul la care vreau sa lucrez(adaug, sterg, modific)
+    //4.Task-ul e gata, verificat, rulat
+    //5.Commit(salveaza local)+commit message
+    //6.Push(trimite modificarile pe gitHub)
+    //7.Merg pe GitHub
+    //8.Creez un pull-request
+    //9.Adaug colegi la review
+    //10.Daca am comments ma intorc in intelliJ si reiau pasii 3-6
+    //11.Daca am approve - merge pull request
+    //12.Ma intorc in IntelliJ, ma mut pe branch-ul main(principal)
+    //13.Pull(trag toate modificarile din remote in local)
+
+    //tema
+    //constante, locatoori webelements, metoda scroll
 }
